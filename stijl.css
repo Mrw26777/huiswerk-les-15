@@ -1,0 +1,85 @@
+body{
+    background-color: darkorange;
+    padding: 5px;
+}
+
+header{
+    background-color: orangered;
+    padding: 5px;
+}
+
+footer{
+    margin-top: 150px;
+    padding: 5px;
+    background-color: orangered;
+    text-align: center;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 5px;
+    background-color: orangered;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+ul{
+    margin-left: 500px;
+}
+
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: red;
+}
+
+li:hover{
+    color: blue;
+    background-color: blueviolet;
+}
+
+img{
+    margin: 15px 670px 15px 670px;
+    height: 250px;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 15px 500px 15px 500px;
+}
+
+tr, th, td{
+    background-color: aqua;
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 540px 15px 540px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px black;
+}
+
+textarea{
+    height: 200px;
+    background-color: lightgrey;
+}
+
+button:active{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 5px black;
+}
